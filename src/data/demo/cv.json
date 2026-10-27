@@ -1,0 +1,206 @@
+{
+  "documents": [
+    {
+      "id": "cv-demo-001",
+      "name": "Alex Moreau — Frontend CV",
+      "template": "classic",
+      "contact": {
+        "fullName": "Alex Moreau",
+        "email": "alex.moreau@example.com",
+        "phone": "+212 6 61 23 45 67",
+        "location": "Salé, Maroc",
+        "website": "https://alexmoreau.example.com",
+        "linkedin": "https://linkedin.example.com/in/alexmoreau",
+        "github": "https://github.example.com/alexmoreau"
+      },
+      "title": "Frontend Developer",
+      "sections": {
+        "summary": "Frontend developer with 18 months of commercial experience building accessible React and TypeScript interfaces. I work across the stack with Node.js and REST APIs, and I care about testing, performance and clear communication.",
+        "skillGroups": [
+          {
+            "id": "skill-languages",
+            "label": "Languages",
+            "skills": [
+              "TypeScript",
+              "JavaScript",
+              "HTML",
+              "CSS",
+              "SQL",
+              "Python"
+            ]
+          },
+          {
+            "id": "skill-frameworks",
+            "label": "Frameworks & libraries",
+            "skills": [
+              "React",
+              "Next.js",
+              "Node.js",
+              "Express",
+              "Tailwind CSS",
+              "Vue.js"
+            ]
+          },
+          {
+            "id": "skill-tools",
+            "label": "Tools & practices",
+            "skills": [
+              "Git",
+              "Docker",
+              "Jest",
+              "Playwright",
+              "CI/CD",
+              "Figma",
+              "Vite"
+            ]
+          },
+          {
+            "id": "skill-concepts",
+            "label": "Concepts",
+            "skills": [
+              "REST APIs",
+              "Accessibility",
+              "Design systems",
+              "Testing"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "id": "exp-001",
+            "role": "Junior Frontend Developer",
+            "company": "Harborview Digital",
+            "location": "Casablanca, Maroc",
+            "startDate": "2024-03",
+            "endDate": null,
+            "current": true,
+            "description": "Frontend developer on a customer portal used by around 4,000 people.",
+            "highlights": [
+              "Built and maintained React components with TypeScript for a customer portal",
+              "Migrated a legacy JavaScript codebase to TypeScript, reducing runtime errors",
+              "Wrote Jest component tests and Playwright end-to-end tests for critical flows",
+              "Improved accessibility of the main dashboard to meet WCAG 2.1 AA checks",
+              "Worked with designers in Figma to implement and document reusable components"
+            ],
+            "skills": [
+              "React",
+              "TypeScript",
+              "Jest",
+              "Playwright",
+              "Accessibility",
+              "Tailwind CSS",
+              "Git"
+            ]
+          },
+          {
+            "id": "exp-002",
+            "role": "Web Developer Intern",
+            "company": "Bluewell Studio",
+            "location": "Casablanca, Maroc",
+            "startDate": "2023-06",
+            "endDate": "2023-12",
+            "current": false,
+            "description": "Six-month internship building marketing sites for small businesses.",
+            "highlights": [
+              "Built responsive marketing pages with HTML, CSS and JavaScript",
+              "Worked in a Laravel and Blade codebase to add content sections",
+              "Used Git and code review as part of a small team"
+            ],
+            "skills": [
+              "JavaScript",
+              "HTML",
+              "CSS",
+              "Git",
+              "PHP"
+            ]
+          }
+        ],
+        "education": [
+          {
+            "id": "edu-001",
+            "degree": "Licence Informatique",
+            "institution": "Université Mohammed V",
+            "location": "Rabat, Maroc",
+            "startDate": "2021",
+            "endDate": "2024",
+            "description": "Final-year project: a React and Node.js tool for planning student timetables."
+          }
+        ],
+        "projects": [
+          {
+            "id": "proj-001",
+            "name": "Campus Connect",
+            "description": "A timetable and study-group planner for university students.",
+            "url": "https://github.example.com/alexmoreau/campus-connect",
+            "startDate": "2024-01",
+            "endDate": "2024-05",
+            "highlights": [
+              "Built the front end in React and TypeScript with a Node.js and Express API",
+              "Added authentication and a PostgreSQL data model",
+              "Deployed with Docker and a CI/CD pipeline"
+            ],
+            "skills": [
+              "React",
+              "TypeScript",
+              "Node.js",
+              "Express",
+              "PostgreSQL",
+              "Docker",
+              "CI/CD"
+            ]
+          },
+          {
+            "id": "proj-002",
+            "name": "Budget Tracker",
+            "description": "A small personal-finance dashboard with charted spending.",
+            "url": null,
+            "startDate": "2023-09",
+            "endDate": "2023-11",
+            "highlights": [
+              "Built a React and TypeScript interface with accessible, keyboard-navigable charts",
+              "Persisted data locally in the browser"
+            ],
+            "skills": [
+              "React",
+              "TypeScript",
+              "CSS",
+              "Accessibility"
+            ]
+          }
+        ],
+        "certifications": [
+          {
+            "id": "cert-001",
+            "name": "Meta Front-End Developer Professional Certificate",
+            "issuer": "Coursera",
+            "date": "2024-02",
+            "url": null
+          }
+        ],
+        "languages": [
+          {
+            "id": "lang-001",
+            "name": "English",
+            "level": "Native"
+          },
+          {
+            "id": "lang-002",
+            "name": "French",
+            "level": "Professional"
+          }
+        ],
+        "achievements": [
+          {
+            "id": "ach-001",
+            "text": "Presented a component-library migration plan to the wider engineering team at Harborview Digital."
+          }
+        ]
+      },
+      "sourceText": null,
+      "sourceFileName": null,
+      "origin": "demo",
+      "updatedAt": "2026-10-01T09:00:00.000Z"
+    }
+  ],
+  "activeId": "cv-demo-001"
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "co-northwind",
+    "name": "Northwind Labs",
+    "website": "https://northwind.example.com",
+    "logo": null,
+    "description": "A product studio building internal tools and customer portals for mid-market companies.",
+    "industry": "Software studio"
+  },
+  {
+    "id": "co-brightharbor",
+    "name": "Bright Harbor",
+    "website": "https://brightharbor.example.com",
+    "logo": null,
+    "description": "A personal-finance platform helping people plan savings and investments.",
+    "industry": "Fintech"
+  },
+  {
+    "id": "co-cobalt",
+    "name": "Cobalt Systems",
+    "website": "https://cobaltsystems.example.com",
+    "logo": null,
+    "description": "Developer tooling for continuous integration and release automation.",
+    "industry": "Developer tools"
+  },
+  {
+    "id": "co-meridian",
+    "name": "Meridian Health",
+    "website": "https://meridianhealth.example.com",
+    "logo": null,
+    "description": "Software for appointment scheduling and care coordination in clinics.",
+    "industry": "Healthtech"
+  },
+  {
+    "id": "co-kitecompass",
+    "name": "Kite & Compass",
+    "website": "https://kiteandcompass.example.com",
+    "logo": null,
+    "description": "An e-commerce agency building storefronts for independent brands.",
+    "industry": "E-commerce"
+  },
+  {
+    "id": "co-volta",
+    "name": "Volta Energy",
+    "website": "https://voltaenergy.example.com",
+    "logo": null,
+    "description": "Monitoring and analytics for distributed renewable energy assets.",
+    "industry": "Cleantech"
+  },
+  {
+    "id": "co-lumen",
+    "name": "Lumen Analytics",
+    "website": "https://lumenanalytics.example.com",
+    "logo": null,
+    "description": "A data platform for retail demand forecasting and reporting.",
+    "industry": "Data & analytics"
+  },
+  {
+    "id": "co-orchard",
+    "name": "Orchard Union",
+    "website": "https://orchardunion.example.com",
+    "logo": null,
+    "description": "Logistics software coordinating regional warehouse and delivery fleets.",
+    "industry": "Logistics"
+  }
+]

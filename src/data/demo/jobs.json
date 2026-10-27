@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "job-001",
+    "title": "Junior Full Stack Developer",
+    "company": "Atlas Digital",
+    "companyWebsite": "https://atlasdigital.example.ma",
+    "companyLogo": null,
+    "location": "Casablanca, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "junior",
+    "salary": {
+      "min": 7000,
+      "max": 11000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Join a small product team building customer portals with React and Node.js. You will pair with senior engineers, ship features end to end, and learn how a real product is maintained. We care about clean code and clear communication over years of experience.",
+    "responsibilities": [
+      "Build and maintain features across a React front end and a Node.js API",
+      "Write tests for the components and endpoints you deliver",
+      "Participate in code review and weekly planning",
+      "Investigate and fix bugs reported by support"
+    ],
+    "requiredSkills": [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "REST APIs",
+      "Git"
+    ],
+    "preferredSkills": [
+      "TypeScript",
+      "PostgreSQL",
+      "Docker",
+      "Tailwind CSS"
+    ],
+    "experienceYears": 1,
+    "education": "Degree in Computer Science or equivalent practical experience",
+    "sourceUrl": "https://emploi.example.ma/demo/job-001",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-18",
+    "deadline": "2026-10-31",
+    "addedAt": "2026-09-20",
+    "status": "shortlisted",
+    "notes": "Annonce d'exemple. Poste basé à Casablanca, Maroc.",
+    "tags": [
+      "frontend",
+      "backend",
+      "graduate-friendly"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-002",
+    "title": "React Developer",
+    "company": "Medina Pay",
+    "companyWebsite": "https://medinapay.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13500,
+      "max": 22500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "We are rebuilding our customer dashboard in React and TypeScript. You will own complex UI state, accessibility, and performance. Our design system is well documented and we invest heavily in testing.",
+    "responsibilities": [
+      "Design and build reusable React components with TypeScript",
+      "Improve accessibility and keyboard navigation across the dashboard",
+      "Profile and optimise rendering performance",
+      "Collaborate with designers on component APIs"
+    ],
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "REST APIs",
+      "Accessibility"
+    ],
+    "preferredSkills": [
+      "Next.js",
+      "GraphQL",
+      "Jest",
+      "Figma"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-002",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-25",
+    "deadline": "2026-11-07",
+    "addedAt": "2026-09-26",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "frontend",
+      "react",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-003",
+    "title": "Laravel Developer",
+    "company": "Souk Commerce",
+    "companyWebsite": "https://soukcommerce.example.ma",
+    "companyLogo": null,
+    "location": "Salé, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 14000,
+      "max": 23000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Build and maintain e-commerce storefronts and internal tooling in Laravel and Vue. You will work directly with clients to translate requirements into reliable features.",
+    "responsibilities": [
+      "Develop Laravel APIs and admin interfaces",
+      "Integrate payment and shipping providers",
+      "Write feature tests with PHPUnit",
+      "Review pull requests and mentor juniors"
+    ],
+    "requiredSkills": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "REST APIs",
+      "Git"
+    ],
+    "preferredSkills": [
+      "Vue.js",
+      "Docker",
+      "Redis",
+      "Tailwind CSS"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-003",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-11",
+    "deadline": null,
+    "addedAt": "2026-09-14",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste basé à Salé, Maroc.",
+    "tags": [
+      "backend",
+      "php",
+      "ecommerce"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-004",
+    "title": "Java / Spring Boot Developer",
+    "company": "Chifa Santé",
+    "companyWebsite": "https://chifasante.example.ma",
+    "companyLogo": null,
+    "location": "Marrakech, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 14500,
+      "max": 23500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Our scheduling platform processes high volumes of appointment traffic. You will build resilient Spring Boot services, model clinical data carefully, and help us meet strict reliability requirements.",
+    "responsibilities": [
+      "Design and implement Spring Boot microservices",
+      "Model appointment and patient data with strong validation",
+      "Improve observability and error handling",
+      "Participate in on-call rotation after onboarding"
+    ],
+    "requiredSkills": [
+      "Java",
+      "Spring Boot",
+      "REST APIs",
+      "PostgreSQL",
+      "Git"
+    ],
+    "preferredSkills": [
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "AWS"
+    ],
+    "experienceYears": 4,
+    "education": "Degree in Computer Science or related field",
+    "sourceUrl": "https://emploi.example.ma/demo/job-004",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-08-30",
+    "deadline": "2026-10-24",
+    "addedAt": "2026-09-02",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste basé à Marrakech, Maroc.",
+    "tags": [
+      "backend",
+      "java",
+      "healthtech"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-005",
+    "title": "Frontend Developer",
+    "company": "Nour Énergie",
+    "companyWebsite": "https://nourenergie.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "junior",
+    "salary": {
+      "min": 7000,
+      "max": 11000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Help us visualise energy data for operators and customers. You will build clear, accessible charts and tables, and turn messy sensor data into something people can act on.",
+    "responsibilities": [
+      "Build React interfaces for monitoring dashboards",
+      "Implement accessible data visualisations",
+      "Work with the API team to shape responses",
+      "Write component tests"
+    ],
+    "requiredSkills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Git"
+    ],
+    "preferredSkills": [
+      "TypeScript",
+      "Recharts",
+      "Accessibility",
+      "Tailwind CSS"
+    ],
+    "experienceYears": 1,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-005",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-29",
+    "deadline": null,
+    "addedAt": "2026-09-30",
+    "status": "shortlisted",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "frontend",
+      "remote",
+      "dataviz"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-006",
+    "title": "Software Engineer Intern",
+    "company": "Kasbah Cloud",
+    "companyWebsite": "https://kasbahcloud.example.ma",
+    "companyLogo": null,
+    "location": "Fès, Maroc",
+    "workMode": "onsite",
+    "employmentType": "internship",
+    "seniority": "intern",
+    "salary": {
+      "min": 3500,
+      "max": 5500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "A six-month internship on our build and release tooling team. You will work on real features used by other engineering teams and receive structured mentoring.",
+    "responsibilities": [
+      "Contribute to internal tooling in TypeScript and Go",
+      "Write documentation for the tools you touch",
+      "Shadow senior engineers during incident reviews",
+      "Present your project at the end of the internship"
+    ],
+    "requiredSkills": [
+      "JavaScript",
+      "Git",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "preferredSkills": [
+      "TypeScript",
+      "Node.js",
+      "Docker",
+      "CI/CD"
+    ],
+    "experienceYears": 0,
+    "education": "Currently studying Computer Science or a related degree",
+    "sourceUrl": "https://emploi.example.ma/demo/job-006",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-05",
+    "deadline": "2026-10-20",
+    "addedAt": "2026-09-06",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste basé à Fès, Maroc.",
+    "tags": [
+      "internship",
+      "onsite",
+      "student"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-007",
+    "title": "Data Analyst Intern",
+    "company": "Zellige Data",
+    "companyWebsite": "https://zelligedata.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "internship",
+    "seniority": "intern",
+    "salary": {
+      "min": 4000,
+      "max": 6000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Support the analytics team with reporting and exploratory analysis for retail clients. You will write SQL, build dashboards, and present findings.",
+    "responsibilities": [
+      "Write SQL to answer business questions",
+      "Build and maintain dashboards",
+      "Clean and validate datasets",
+      "Summarise findings for non-technical stakeholders"
+    ],
+    "requiredSkills": [
+      "SQL",
+      "Excel",
+      "Data Structures"
+    ],
+    "preferredSkills": [
+      "Python",
+      "Pandas",
+      "Power BI",
+      "Tableau"
+    ],
+    "experienceYears": 0,
+    "education": "Studying or recently graduated in a quantitative field",
+    "sourceUrl": "https://emploi.example.ma/demo/job-007",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-21",
+    "deadline": null,
+    "addedAt": "2026-09-22",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "data",
+      "internship",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-008",
+    "title": "Junior Data Engineer",
+    "company": "Zellige Data",
+    "companyWebsite": "https://zelligedata.example.ma",
+    "companyLogo": null,
+    "location": "Kénitra, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "junior",
+    "salary": {
+      "min": 8500,
+      "max": 12500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Build the pipelines that feed our forecasting models. You will work with Python, SQL and cloud data warehouses, and learn how to make data reliable.",
+    "responsibilities": [
+      "Build and monitor data pipelines in Python",
+      "Model warehouse tables with SQL",
+      "Add data-quality checks and alerting",
+      "Partner with analysts on requirements"
+    ],
+    "requiredSkills": [
+      "Python",
+      "SQL",
+      "Git",
+      "REST APIs"
+    ],
+    "preferredSkills": [
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "CI/CD"
+    ],
+    "experienceYears": 1,
+    "education": "Degree in Computer Science, Data Science or equivalent",
+    "sourceUrl": "https://emploi.example.ma/demo/job-008",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-14",
+    "deadline": "2026-11-01",
+    "addedAt": "2026-09-15",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste basé à Kénitra, Maroc.",
+    "tags": [
+      "data",
+      "backend",
+      "python"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-009",
+    "title": "QA Automation Engineer",
+    "company": "Darija Logistics",
+    "companyWebsite": "https://darijalogistics.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13000,
+      "max": 22000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Own the automated test suite for our logistics platform. You will design reliable end-to-end tests, improve CI stability, and help teams catch regressions earlier.",
+    "responsibilities": [
+      "Design and maintain Playwright end-to-end tests",
+      "Improve test reliability and reporting in CI",
+      "Review test coverage with feature teams",
+      "Advocate for quality across the engineering team"
+    ],
+    "requiredSkills": [
+      "Playwright",
+      "JavaScript",
+      "CI/CD",
+      "Git"
+    ],
+    "preferredSkills": [
+      "TypeScript",
+      "Cypress",
+      "Docker",
+      "REST APIs"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-009",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-08",
+    "deadline": null,
+    "addedAt": "2026-09-10",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "qa",
+      "testing",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-010",
+    "title": "AI / ML Intern",
+    "company": "Kasbah Cloud",
+    "companyWebsite": "https://kasbahcloud.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "internship",
+    "seniority": "intern",
+    "salary": {
+      "min": 3500,
+      "max": 5500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Work with our applied research team on practical machine-learning features, from data preparation to evaluation. Expect real datasets and honest metrics.",
+    "responsibilities": [
+      "Prepare and analyse training data",
+      "Train and evaluate baseline models",
+      "Document experiments and results",
+      "Present findings to the team"
+    ],
+    "requiredSkills": [
+      "Python",
+      "Machine Learning",
+      "Data Structures"
+    ],
+    "preferredSkills": [
+      "PyTorch",
+      "TensorFlow",
+      "NLP",
+      "Pandas"
+    ],
+    "experienceYears": 0,
+    "education": "Studying or recently graduated in CS, maths or a related field",
+    "sourceUrl": "https://emploi.example.ma/demo/job-010",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-27",
+    "deadline": "2026-11-15",
+    "addedAt": "2026-09-28",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "ai",
+      "ml",
+      "internship",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-011",
+    "title": "Backend Node.js Developer",
+    "company": "Medina Pay",
+    "companyWebsite": "https://medinapay.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 14000,
+      "max": 23000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Design services that move money safely and predictably. You will work on idempotency, auditing and integrations with banking partners.",
+    "responsibilities": [
+      "Build Node.js services with TypeScript",
+      "Design APIs and data models for financial operations",
+      "Write integration tests against sandbox providers",
+      "Improve monitoring for critical flows"
+    ],
+    "requiredSkills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "REST APIs",
+      "Git"
+    ],
+    "preferredSkills": [
+      "Docker",
+      "Kubernetes",
+      "GraphQL",
+      "AWS"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-011",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-19",
+    "deadline": null,
+    "addedAt": "2026-09-21",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "backend",
+      "node",
+      "fintech"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-012",
+    "title": "TypeScript Engineer",
+    "company": "Kasbah Cloud",
+    "companyWebsite": "https://kasbahcloud.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "contract",
+    "seniority": "senior",
+    "salary": {
+      "min": 1800,
+      "max": 2500,
+      "currency": "MAD",
+      "period": "day"
+    },
+    "description": "Short-term contract to harden and extend our internal TypeScript SDK and CLI. You will improve type safety, documentation and release tooling.",
+    "responsibilities": [
+      "Improve the public types of the SDK",
+      "Extend the CLI with new commands",
+      "Write documentation and usage examples",
+      "Set up automated release checks"
+    ],
+    "requiredSkills": [
+      "TypeScript",
+      "Node.js",
+      "Git",
+      "CI/CD"
+    ],
+    "preferredSkills": [
+      "REST APIs",
+      "GraphQL",
+      "Docker"
+    ],
+    "experienceYears": 5,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-012",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-02",
+    "deadline": "2026-10-18",
+    "addedAt": "2026-09-04",
+    "status": "archived",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "typescript",
+      "contract",
+      "devtools"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-013",
+    "title": "Junior DevOps Engineer",
+    "company": "Darija Logistics",
+    "companyWebsite": "https://darijalogistics.example.ma",
+    "companyLogo": null,
+    "location": "Tanger, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "junior",
+    "salary": {
+      "min": 7000,
+      "max": 11000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Support our platform team running containerised services on AWS. You will automate deployments, improve monitoring, and learn infrastructure as code.",
+    "responsibilities": [
+      "Maintain CI/CD pipelines",
+      "Automate infrastructure with Terraform",
+      "Improve logging and alerting",
+      "Support developers with build and environment issues"
+    ],
+    "requiredSkills": [
+      "Linux",
+      "Docker",
+      "CI/CD",
+      "Git"
+    ],
+    "preferredSkills": [
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Python"
+    ],
+    "experienceYears": 1,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-013",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-16",
+    "deadline": "2026-10-30",
+    "addedAt": "2026-09-17",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste basé à Tanger, Maroc.",
+    "tags": [
+      "devops",
+      "cloud",
+      "junior"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-014",
+    "title": "React Native Developer",
+    "company": "Chifa Santé",
+    "companyWebsite": "https://chifasante.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13500,
+      "max": 22500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Build the mobile companion app used by clinicians. You will care about offline behaviour, accessibility and battery-friendly networking.",
+    "responsibilities": [
+      "Build React Native features with TypeScript",
+      "Handle offline caching and sync",
+      "Ensure accessibility on iOS and Android",
+      "Release through the standard mobile pipelines"
+    ],
+    "requiredSkills": [
+      "React Native",
+      "React",
+      "TypeScript",
+      "REST APIs"
+    ],
+    "preferredSkills": [
+      "Accessibility",
+      "GraphQL",
+      "Jest",
+      "Docker"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-014",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-23",
+    "deadline": null,
+    "addedAt": "2026-09-24",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "mobile",
+      "react-native",
+      "healthtech"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-015",
+    "title": "UI Engineer",
+    "company": "Atlas Digital",
+    "companyWebsite": "https://atlasdigital.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 14000,
+      "max": 23000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Own our component library and design-system implementation. You will work closely with designers to ship accessible, consistent UI.",
+    "responsibilities": [
+      "Build and document design-system components",
+      "Improve accessibility and theming",
+      "Set up visual and interaction testing",
+      "Advise product teams on UI patterns"
+    ],
+    "requiredSkills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Accessibility",
+      "Tailwind CSS"
+    ],
+    "preferredSkills": [
+      "Figma",
+      "Jest",
+      "Playwright",
+      "Next.js"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-015",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-30",
+    "deadline": "2026-11-12",
+    "addedAt": "2026-10-01",
+    "status": "shortlisted",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "frontend",
+      "design-system",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-016",
+    "title": "Platform Engineer",
+    "company": "Kasbah Cloud",
+    "companyWebsite": "https://kasbahcloud.example.ma",
+    "companyLogo": null,
+    "location": "Kénitra, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "senior",
+    "salary": {
+      "min": 26500,
+      "max": 41500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Own the reliability and scalability of our build platform. You will design Kubernetes workloads, improve cost efficiency, and reduce toil with automation.",
+    "responsibilities": [
+      "Design and operate Kubernetes clusters",
+      "Build self-service tooling for engineering teams",
+      "Lead incident response and postmortems",
+      "Improve observability and SLOs"
+    ],
+    "requiredSkills": [
+      "Kubernetes",
+      "Docker",
+      "Linux",
+      "Terraform",
+      "CI/CD"
+    ],
+    "preferredSkills": [
+      "AWS",
+      "Go",
+      "Python",
+      "Prometheus"
+    ],
+    "experienceYears": 6,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-016",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-08-28",
+    "deadline": null,
+    "addedAt": "2026-08-30",
+    "status": "archived",
+    "notes": "Annonce d'exemple. Poste basé à Kénitra, Maroc.",
+    "tags": [
+      "platform",
+      "kubernetes",
+      "senior"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-017",
+    "title": "Data Scientist",
+    "company": "Zellige Data",
+    "companyWebsite": "https://zelligedata.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13000,
+      "max": 22000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Build forecasting models for retail demand. You will balance statistical rigour with practical delivery, and explain your models clearly to stakeholders.",
+    "responsibilities": [
+      "Develop and validate forecasting models",
+      "Design experiments and evaluate results honestly",
+      "Productionise models with the data engineering team",
+      "Communicate uncertainty to stakeholders"
+    ],
+    "requiredSkills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Pandas"
+    ],
+    "preferredSkills": [
+      "PyTorch",
+      "AWS",
+      "Docker",
+      "Data Structures"
+    ],
+    "experienceYears": 3,
+    "education": "Degree in a quantitative discipline",
+    "sourceUrl": "https://emploi.example.ma/demo/job-017",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-12",
+    "deadline": "2026-10-28",
+    "addedAt": "2026-09-13",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "data",
+      "ml",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-018",
+    "title": "Cloud Engineer",
+    "company": "Nour Énergie",
+    "companyWebsite": "https://nourenergie.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13500,
+      "max": 22500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Help us scale ingestion of sensor data. You will build resilient AWS infrastructure and pipelines that handle bursty, high-volume traffic.",
+    "responsibilities": [
+      "Design AWS infrastructure as code",
+      "Build data ingestion and processing pipelines",
+      "Optimise cost and reliability",
+      "Support the platform on-call rotation"
+    ],
+    "requiredSkills": [
+      "AWS",
+      "Terraform",
+      "Docker",
+      "Linux",
+      "CI/CD"
+    ],
+    "preferredSkills": [
+      "Python",
+      "Kafka",
+      "Kubernetes",
+      "PostgreSQL"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-018",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-09",
+    "deadline": null,
+    "addedAt": "2026-09-11",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "cloud",
+      "devops",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-019",
+    "title": "Technical Support Engineer",
+    "company": "Medina Pay",
+    "companyWebsite": "https://medinapay.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "junior",
+    "salary": {
+      "min": 8000,
+      "max": 12000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Be the technical bridge between customers and engineering. You will debug integrations, write reproduction steps, and improve our documentation.",
+    "responsibilities": [
+      "Investigate customer-reported integration issues",
+      "Write clear reproductions for engineering",
+      "Maintain help-centre documentation",
+      "Contribute small fixes where appropriate"
+    ],
+    "requiredSkills": [
+      "REST APIs",
+      "Git",
+      "SQL"
+    ],
+    "preferredSkills": [
+      "JavaScript",
+      "Python",
+      "Docker",
+      "Linux"
+    ],
+    "experienceYears": 1,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-019",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-26",
+    "deadline": "2026-11-05",
+    "addedAt": "2026-09-27",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "support",
+      "junior",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-020",
+    "title": "Full Stack Developer (Laravel & Vue)",
+    "company": "Souk Commerce",
+    "companyWebsite": "https://soukcommerce.example.ma",
+    "companyLogo": null,
+    "location": "Marrakech, Maroc",
+    "workMode": "hybrid",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 14500,
+      "max": 23500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Deliver complete e-commerce features across a Laravel backend and Vue front end. You will work in small client-facing squads.",
+    "responsibilities": [
+      "Build Laravel APIs and Vue interfaces",
+      "Implement checkout and catalogue features",
+      "Write tests across the stack",
+      "Collaborate directly with clients"
+    ],
+    "requiredSkills": [
+      "Laravel",
+      "PHP",
+      "Vue.js",
+      "MySQL",
+      "Git"
+    ],
+    "preferredSkills": [
+      "REST APIs",
+      "Tailwind CSS",
+      "Docker",
+      "Redis"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-020",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-15",
+    "deadline": null,
+    "addedAt": "2026-09-16",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste basé à Marrakech, Maroc.",
+    "tags": [
+      "full-stack",
+      "php",
+      "vue"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-021",
+    "title": "Product Engineer",
+    "company": "Atlas Digital",
+    "companyWebsite": "https://atlasdigital.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13000,
+      "max": 22000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "A generalist product role: talk to customers, scope the work, then build it across React and Node. Ideal if you enjoy owning outcomes, not just tickets.",
+    "responsibilities": [
+      "Talk to customers and turn feedback into scoped work",
+      "Build features across the full stack",
+      "Measure the impact of what you ship",
+      "Improve product quality continuously"
+    ],
+    "requiredSkills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "SQL",
+      "Git"
+    ],
+    "preferredSkills": [
+      "Next.js",
+      "Docker",
+      "Tailwind CSS",
+      "REST APIs"
+    ],
+    "experienceYears": 3,
+    "education": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-021",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-10-01",
+    "deadline": "2026-11-20",
+    "addedAt": "2026-10-02",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "full-stack",
+      "product",
+      "remote"
+    ],
+    "origin": "demo"
+  },
+  {
+    "id": "job-022",
+    "title": "Security Analyst",
+    "company": "Chifa Santé",
+    "companyWebsite": "https://chifasante.example.ma",
+    "companyLogo": null,
+    "location": "Télétravail (Maroc)",
+    "workMode": "remote",
+    "employmentType": "full-time",
+    "seniority": "mid",
+    "salary": {
+      "min": 13500,
+      "max": 22500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "description": "Help protect sensitive healthcare data. You will review code and infrastructure for risks, run security assessments, and improve our practices.",
+    "responsibilities": [
+      "Perform application and cloud security reviews",
+      "Triage and track security findings",
+      "Improve secure-development guidance for engineers",
+      "Support incident response"
+    ],
+    "requiredSkills": [
+      "Linux",
+      "SQL",
+      "Git",
+      "Docker"
+    ],
+    "preferredSkills": [
+      "AWS",
+      "Python",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "experienceYears": 3,
+    "education": "Degree or relevant security certification",
+    "sourceUrl": "https://emploi.example.ma/demo/job-022",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "publishedAt": "2026-09-07",
+    "deadline": null,
+    "addedAt": "2026-09-08",
+    "status": "saved",
+    "notes": "Annonce d'exemple. Poste en télétravail depuis le Maroc.",
+    "tags": [
+      "security",
+      "cloud",
+      "remote"
+    ],
+    "origin": "demo"
+  }
+]

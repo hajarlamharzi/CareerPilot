@@ -1,0 +1,122 @@
+[
+  {
+    "id": "act-001",
+    "at": "2026-10-08T08:00:00.000Z",
+    "type": "interview-saved",
+    "message": "Saved a new interview question: migrating a codebase to TypeScript.",
+    "entityId": "q-009",
+    "origin": "demo"
+  },
+  {
+    "id": "act-002",
+    "at": "2026-10-07T12:00:00.000Z",
+    "type": "application-status",
+    "message": "UI Engineer at Northwind Labs moved to Interview.",
+    "entityId": "app-004",
+    "origin": "demo"
+  },
+  {
+    "id": "act-003",
+    "at": "2026-10-06T16:00:00.000Z",
+    "type": "application-status",
+    "message": "Product Engineer at Northwind Labs moved to Offer.",
+    "entityId": "app-010",
+    "origin": "demo"
+  },
+  {
+    "id": "act-004",
+    "at": "2026-10-04T08:45:00.000Z",
+    "type": "application-status",
+    "message": "Frontend Developer at Volta Energy moved to Screening.",
+    "entityId": "app-003",
+    "origin": "demo"
+  },
+  {
+    "id": "act-005",
+    "at": "2026-10-02T14:30:00.000Z",
+    "type": "application-status",
+    "message": "Junior Full Stack Developer at Northwind Labs moved to Interview.",
+    "entityId": "app-001",
+    "origin": "demo"
+  },
+  {
+    "id": "act-006",
+    "at": "2026-10-01T09:10:00.000Z",
+    "type": "match-run",
+    "message": "Ran a baseline match for UI Engineer at Northwind Labs (88%).",
+    "entityId": "match-002",
+    "origin": "demo"
+  },
+  {
+    "id": "act-007",
+    "at": "2026-09-30T15:00:00.000Z",
+    "type": "application-status",
+    "message": "QA Automation Engineer at Orchard Union moved to Assessment.",
+    "entityId": "app-005",
+    "origin": "demo"
+  },
+  {
+    "id": "act-008",
+    "at": "2026-09-28T07:30:00.000Z",
+    "type": "application-added",
+    "message": "Added AI / ML Intern at Cobalt Systems to the tracker.",
+    "entityId": "app-008",
+    "origin": "demo"
+  },
+  {
+    "id": "act-009",
+    "at": "2026-09-27T16:30:00.000Z",
+    "type": "match-run",
+    "message": "Ran a baseline match for React Developer at Bright Harbor (82%).",
+    "entityId": "match-003",
+    "origin": "demo"
+  },
+  {
+    "id": "act-010",
+    "at": "2026-09-20T18:05:00.000Z",
+    "type": "match-run",
+    "message": "Ran a baseline match for Junior Full Stack Developer at Northwind Labs (93%).",
+    "entityId": "match-001",
+    "origin": "demo"
+  },
+  {
+    "id": "act-011",
+    "at": "2026-09-19T09:00:00.000Z",
+    "type": "application-status",
+    "message": "Java / Spring Boot Developer at Meridian Health moved to Rejected.",
+    "entityId": "app-006",
+    "origin": "demo"
+  },
+  {
+    "id": "act-012",
+    "at": "2026-09-16T12:00:00.000Z",
+    "type": "application-added",
+    "message": "Applied to Junior Data Engineer at Lumen Analytics.",
+    "entityId": "app-009",
+    "origin": "demo"
+  },
+  {
+    "id": "act-013",
+    "at": "2026-09-14T08:00:00.000Z",
+    "type": "job-added",
+    "message": "Saved Laravel Developer at Kite & Compass.",
+    "entityId": "job-003",
+    "origin": "demo"
+  },
+  {
+    "id": "act-014",
+    "at": "2026-09-11T19:40:00.000Z",
+    "type": "match-run",
+    "message": "Ran a baseline match for QA Automation Engineer at Orchard Union (82%).",
+    "entityId": "match-004",
+    "origin": "demo"
+  },
+  {
+    "id": "act-015",
+    "at": "2026-09-06T09:00:00.000Z",
+    "type": "cv-uploaded",
+    "message": "Uploaded the sample CV (Alex Moreau — Frontend CV).",
+    "entityId": "cv-demo-001",
+    "origin": "demo"
+  }
+]

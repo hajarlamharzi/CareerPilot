@@ -1,0 +1,491 @@
+[
+  {
+    "id": "app-001",
+    "jobId": "job-001",
+    "company": "Atlas Digital",
+    "position": "Junior Full Stack Developer",
+    "status": "interview",
+    "appliedAt": "2026-09-21",
+    "sourceUrl": "https://emploi.example.ma/demo/job-001",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": "Priya Nair",
+      "email": "priya.nair@northwind.example.com",
+      "phone": null,
+      "role": "Talent Partner"
+    },
+    "notes": [
+      {
+        "id": "note-001",
+        "at": "2026-09-21T10:15:00.000Z",
+        "body": "Applied with the frontend CV. Recruiter replied within two days."
+      },
+      {
+        "id": "note-002",
+        "at": "2026-10-02T14:30:00.000Z",
+        "body": "First-stage call went well. Technical interview scheduled for 15 October. Prepare Node.js and API questions."
+      }
+    ],
+    "followUpAt": null,
+    "interviewAt": "2026-10-15T13:00:00.000Z",
+    "salary": {
+      "min": 7000,
+      "max": 11000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-001",
+        "from": null,
+        "to": "applied",
+        "at": "2026-09-21T10:00:00.000Z",
+        "note": "Application submitted"
+      },
+      {
+        "id": "hist-002",
+        "from": "applied",
+        "to": "screening",
+        "at": "2026-09-24T09:00:00.000Z",
+        "note": "Recruiter screen booked"
+      },
+      {
+        "id": "hist-003",
+        "from": "screening",
+        "to": "interview",
+        "at": "2026-10-02T14:30:00.000Z",
+        "note": "Technical interview scheduled"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-20T18:00:00.000Z",
+    "updatedAt": "2026-10-02T14:30:00.000Z"
+  },
+  {
+    "id": "app-002",
+    "jobId": "job-002",
+    "company": "Medina Pay",
+    "position": "React Developer",
+    "status": "applied",
+    "appliedAt": "2026-09-28",
+    "sourceUrl": "https://emploi.example.ma/demo/job-002",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": null,
+      "email": null,
+      "phone": null,
+      "role": null
+    },
+    "notes": [
+      {
+        "id": "note-003",
+        "at": "2026-09-28T11:00:00.000Z",
+        "body": "Applications open until 7 November. No response yet."
+      }
+    ],
+    "followUpAt": "2026-10-19",
+    "interviewAt": null,
+    "salary": {
+      "min": 13500,
+      "max": 22500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-004",
+        "from": null,
+        "to": "applied",
+        "at": "2026-09-28T11:00:00.000Z",
+        "note": "Application submitted"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-27T16:20:00.000Z",
+    "updatedAt": "2026-09-28T11:00:00.000Z"
+  },
+  {
+    "id": "app-003",
+    "jobId": "job-005",
+    "company": "Nour Énergie",
+    "position": "Frontend Developer",
+    "status": "screening",
+    "appliedAt": "2026-10-01",
+    "sourceUrl": "https://emploi.example.ma/demo/job-005",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": "TomFerreira",
+      "email": "tom.ferreira@voltaenergy.example.com",
+      "phone": null,
+      "role": "Engineering Manager"
+    },
+    "notes": [
+      {
+        "id": "note-004",
+        "at": "2026-10-04T08:45:00.000Z",
+        "body": "Screening call done. They use React and Recharts heavily — worth brushing up on accessible charts."
+      }
+    ],
+    "followUpAt": null,
+    "interviewAt": null,
+    "salary": {
+      "min": 7000,
+      "max": 11000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-005",
+        "from": null,
+        "to": "applied",
+        "at": "2026-10-01T09:30:00.000Z",
+        "note": "Application submitted"
+      },
+      {
+        "id": "hist-006",
+        "from": "applied",
+        "to": "screening",
+        "at": "2026-10-04T08:45:00.000Z",
+        "note": "Screening call completed"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-30T20:10:00.000Z",
+    "updatedAt": "2026-10-04T08:45:00.000Z"
+  },
+  {
+    "id": "app-004",
+    "jobId": "job-015",
+    "company": "Atlas Digital",
+    "position": "UI Engineer",
+    "status": "interview",
+    "appliedAt": "2026-10-03",
+    "sourceUrl": "https://emploi.example.ma/demo/job-015",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": "Priya Nair",
+      "email": "priya.nair@northwind.example.com",
+      "phone": null,
+      "role": "Talent Partner"
+    },
+    "notes": [
+      {
+        "id": "note-005",
+        "at": "2026-10-07T12:00:00.000Z",
+        "body": "Design-systems interview on 14 October. They asked for a short component walkthrough."
+      }
+    ],
+    "followUpAt": null,
+    "interviewAt": "2026-10-14T10:00:00.000Z",
+    "salary": {
+      "min": 14000,
+      "max": 23000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-007",
+        "from": null,
+        "to": "applied",
+        "at": "2026-10-03T09:00:00.000Z",
+        "note": "Application submitted"
+      },
+      {
+        "id": "hist-008",
+        "from": "applied",
+        "to": "interview",
+        "at": "2026-10-07T12:00:00.000Z",
+        "note": "Interview invited"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-10-02T17:40:00.000Z",
+    "updatedAt": "2026-10-07T12:00:00.000Z"
+  },
+  {
+    "id": "app-005",
+    "jobId": "job-009",
+    "company": "Darija Logistics",
+    "position": "QA Automation Engineer",
+    "status": "assessment",
+    "appliedAt": "2026-09-12",
+    "sourceUrl": "https://emploi.example.ma/demo/job-009",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": null,
+      "email": "recruiting@orchardunion.example.com",
+      "phone": null,
+      "role": "Recruiting"
+    },
+    "notes": [
+      {
+        "id": "note-006",
+        "at": "2026-09-30T15:00:00.000Z",
+        "body": "Take-home assessment: write two Playwright tests against a sample app. Due 18 October."
+      }
+    ],
+    "followUpAt": "2026-10-16",
+    "interviewAt": null,
+    "salary": {
+      "min": 13000,
+      "max": 22000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-009",
+        "from": null,
+        "to": "applied",
+        "at": "2026-09-12T10:00:00.000Z",
+        "note": "Application submitted"
+      },
+      {
+        "id": "hist-010",
+        "from": "applied",
+        "to": "screening",
+        "at": "2026-09-22T09:00:00.000Z",
+        "note": "Recruiter call"
+      },
+      {
+        "id": "hist-011",
+        "from": "screening",
+        "to": "assessment",
+        "at": "2026-09-30T15:00:00.000Z",
+        "note": "Take-home assessment sent"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-11T19:30:00.000Z",
+    "updatedAt": "2026-09-30T15:00:00.000Z"
+  },
+  {
+    "id": "app-006",
+    "jobId": "job-004",
+    "company": "Chifa Santé",
+    "position": "Java / Spring Boot Developer",
+    "status": "rejected",
+    "appliedAt": "2026-09-03",
+    "sourceUrl": "https://emploi.example.ma/demo/job-004",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": null,
+      "email": null,
+      "phone": null,
+      "role": null
+    },
+    "notes": [
+      {
+        "id": "note-007",
+        "at": "2026-09-19T09:00:00.000Z",
+        "body": "Rejected — they wanted stronger Java and Spring Boot experience. Feedback was clear and constructive."
+      }
+    ],
+    "followUpAt": null,
+    "interviewAt": null,
+    "salary": {
+      "min": 14500,
+      "max": 23500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-012",
+        "from": null,
+        "to": "applied",
+        "at": "2026-09-03T10:30:00.000Z",
+        "note": "Application submitted"
+      },
+      {
+        "id": "hist-013",
+        "from": "applied",
+        "to": "rejected",
+        "at": "2026-09-19T09:00:00.000Z",
+        "note": "Not progressing — skills gap"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-02T14:00:00.000Z",
+    "updatedAt": "2026-09-19T09:00:00.000Z"
+  },
+  {
+    "id": "app-007",
+    "jobId": "job-003",
+    "company": "Souk Commerce",
+    "position": "Laravel Developer",
+    "status": "saved",
+    "appliedAt": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-003",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": null,
+      "email": null,
+      "phone": null,
+      "role": null
+    },
+    "notes": [
+      {
+        "id": "note-008",
+        "at": "2026-09-14T08:00:00.000Z",
+        "body": "Saved for later. Laravel exposure is limited — would need a portfolio piece first."
+      }
+    ],
+    "followUpAt": null,
+    "interviewAt": null,
+    "salary": {
+      "min": 14000,
+      "max": 23000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [],
+    "origin": "demo",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-09-14T08:00:00.000Z"
+  },
+  {
+    "id": "app-008",
+    "jobId": "job-010",
+    "company": "Kasbah Cloud",
+    "position": "AI / ML Intern",
+    "status": "interested",
+    "appliedAt": null,
+    "sourceUrl": "https://emploi.example.ma/demo/job-010",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": null,
+      "email": null,
+      "phone": null,
+      "role": null
+    },
+    "notes": [
+      {
+        "id": "note-009",
+        "at": "2026-09-28T07:30:00.000Z",
+        "body": "Interesting but a stretch. Would need to show a machine-learning project first."
+      }
+    ],
+    "followUpAt": null,
+    "interviewAt": null,
+    "salary": {
+      "min": 3500,
+      "max": 5500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [],
+    "origin": "demo",
+    "createdAt": "2026-09-28T07:30:00.000Z",
+    "updatedAt": "2026-09-28T07:30:00.000Z"
+  },
+  {
+    "id": "app-009",
+    "jobId": "job-008",
+    "company": "Zellige Data",
+    "position": "Junior Data Engineer",
+    "status": "applied",
+    "appliedAt": "2026-09-16",
+    "sourceUrl": "https://emploi.example.ma/demo/job-008",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": null,
+      "email": null,
+      "phone": null,
+      "role": null
+    },
+    "notes": [
+      {
+        "id": "note-010",
+        "at": "2026-09-16T12:00:00.000Z",
+        "body": "Applied. Closes 1 November."
+      }
+    ],
+    "followUpAt": "2026-10-14",
+    "interviewAt": null,
+    "salary": {
+      "min": 8500,
+      "max": 12500,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-014",
+        "from": null,
+        "to": "applied",
+        "at": "2026-09-16T12:00:00.000Z",
+        "note": "Application submitted"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-15T20:00:00.000Z",
+    "updatedAt": "2026-09-16T12:00:00.000Z"
+  },
+  {
+    "id": "app-010",
+    "jobId": "job-021",
+    "company": "Atlas Digital",
+    "position": "Product Engineer",
+    "status": "offer",
+    "appliedAt": "2026-09-05",
+    "sourceUrl": "https://emploi.example.ma/demo/job-021",
+    "sourceName": "Portail Emploi Maroc (démo)",
+    "contact": {
+      "name": "Priya Nair",
+      "email": "priya.nair@northwind.example.com",
+      "phone": null,
+      "role": "Talent Partner"
+    },
+    "notes": [
+      {
+        "id": "note-011",
+        "at": "2026-10-06T16:00:00.000Z",
+        "body": "Offer received: 15 000 MAD par mois plus a training budget. Waiting to hear about the UI Engineer role before deciding."
+      }
+    ],
+    "followUpAt": "2026-10-17",
+    "interviewAt": null,
+    "salary": {
+      "min": 13000,
+      "max": 22000,
+      "currency": "MAD",
+      "period": "month"
+    },
+    "history": [
+      {
+        "id": "hist-015",
+        "from": null,
+        "to": "applied",
+        "at": "2026-09-05T09:00:00.000Z",
+        "note": "Application submitted"
+      },
+      {
+        "id": "hist-016",
+        "from": "applied",
+        "to": "screening",
+        "at": "2026-09-10T11:00:00.000Z",
+        "note": "Recruiter screen"
+      },
+      {
+        "id": "hist-017",
+        "from": "screening",
+        "to": "interview",
+        "at": "2026-09-18T13:00:00.000Z",
+        "note": "Technical and product interview"
+      },
+      {
+        "id": "hist-018",
+        "from": "interview",
+        "to": "offer",
+        "at": "2026-10-06T16:00:00.000Z",
+        "note": "Offer received"
+      }
+    ],
+    "origin": "demo",
+    "createdAt": "2026-09-04T15:00:00.000Z",
+    "updatedAt": "2026-10-06T16:00:00.000Z"
+  }
+]

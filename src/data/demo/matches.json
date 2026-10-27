@@ -1,0 +1,445 @@
+[
+  {
+    "id": "match-001",
+    "jobId": "job-001",
+    "cvId": "cv-demo-001",
+    "mode": "baseline",
+    "score": 93,
+    "category": "strong",
+    "breakdown": [
+      {
+        "dimension": "requiredSkills",
+        "score": 1,
+        "weight": 0.5,
+        "effectiveWeight": 0.5,
+        "explanation": "All 5 required skills (React, JavaScript, Node.js, REST APIs, Git) were found in the CV."
+      },
+      {
+        "dimension": "preferredSkills",
+        "score": 0.75,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "3 of 4 preferred skills matched (TypeScript, Docker, Tailwind CSS). Missing: PostgreSQL."
+      },
+      {
+        "dimension": "experience",
+        "score": 1,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "The role asks for about 1 year; the CV documents roughly 1.5 years of commercial experience."
+      },
+      {
+        "dimension": "alignment",
+        "score": 0.8,
+        "weight": 0.1,
+        "effectiveWeight": 0.1,
+        "explanation": "Junior seniority and full-stack scope align closely with the candidate's frontend-with-backend-experience profile."
+      }
+    ],
+    "matchedSkills": [
+      { "skill": "React", "evidence": "Junior Frontend Developer at Harborview Digital" },
+      { "skill": "JavaScript", "evidence": "Languages: TypeScript, JavaScript, HTML, CSS" },
+      { "skill": "Node.js", "evidence": "Campus Connect project (Node.js and Express API)" },
+      { "skill": "REST APIs", "evidence": "Concepts: REST APIs" },
+      { "skill": "Git", "evidence": "Tools & practices: Git" },
+      { "skill": "TypeScript", "evidence": "Migrated a legacy JavaScript codebase to TypeScript" },
+      { "skill": "Docker", "evidence": "Campus Connect deployed with Docker" },
+      { "skill": "Tailwind CSS", "evidence": "Frameworks & libraries: Tailwind CSS" }
+    ],
+    "missingRequiredSkills": [],
+    "missingPreferredSkills": ["PostgreSQL"],
+    "findings": [
+      {
+        "id": "f-001",
+        "severity": "positive",
+        "title": "Strong required-skill coverage",
+        "detail": "Every required skill appears in the CV, including backend exposure via Node.js and Express.",
+        "evidence": "Campus Connect (React, TypeScript, Node.js, Express)"
+      },
+      {
+        "id": "f-002",
+        "severity": "warning",
+        "title": "PostgreSQL not evidenced",
+        "detail": "PostgreSQL is preferred. The CV mentions it only in the project tech list, with no description of schema or query work.",
+        "evidence": "Campus Connect tech stack"
+      }
+    ],
+    "keywordsToConsider": ["PostgreSQL", "full-stack", "API design"],
+    "qualificationGaps": [],
+    "learningPriorities": ["PostgreSQL schema design and querying"],
+    "cvImprovements": [
+      "Add a concrete bullet for the database work in Campus Connect (schema, migrations, queries).",
+      "Quantify the impact of the TypeScript migration where a real figure is available."
+    ],
+    "confidence": 0.9,
+    "aiAssessment": null,
+    "providerId": null,
+    "modelId": null,
+    "createdAt": "2026-09-20T18:05:00.000Z"
+  },
+  {
+    "id": "match-002",
+    "jobId": "job-015",
+    "cvId": "cv-demo-001",
+    "mode": "baseline",
+    "score": 88,
+    "category": "strong",
+    "breakdown": [
+      {
+        "dimension": "requiredSkills",
+        "score": 1,
+        "weight": 0.5,
+        "effectiveWeight": 0.5,
+        "explanation": "All 5 required skills (React, TypeScript, CSS, Accessibility, Tailwind CSS) were found in the CV."
+      },
+      {
+        "dimension": "preferredSkills",
+        "score": 1,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "All 4 preferred skills matched (Figma, Jest, Playwright, Next.js)."
+      },
+      {
+        "dimension": "experience",
+        "score": 0.5,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "The role asks for about 3 years; the CV documents roughly 1.5 years, so this dimension is scored at half."
+      },
+      {
+        "dimension": "alignment",
+        "score": 0.75,
+        "weight": 0.1,
+        "effectiveWeight": 0.1,
+        "explanation": "The candidate's component-library and accessibility work aligns well with a design-systems role, though they have not held the title."
+      }
+    ],
+    "matchedSkills": [
+      { "skill": "React", "evidence": "Built and maintained React components with TypeScript" },
+      { "skill": "TypeScript", "evidence": "Languages: TypeScript" },
+      { "skill": "CSS", "evidence": "Languages: HTML, CSS" },
+      { "skill": "Accessibility", "evidence": "Improved accessibility of the main dashboard to meet WCAG 2.1 AA checks" },
+      { "skill": "Tailwind CSS", "evidence": "Frameworks & libraries: Tailwind CSS" },
+      { "skill": "Figma", "evidence": "Worked with designers in Figma to implement and document reusable components" },
+      { "skill": "Jest", "evidence": "Wrote Jest component tests" },
+      { "skill": "Playwright", "evidence": "Playwright end-to-end tests for critical flows" },
+      { "skill": "Next.js", "evidence": "Frameworks & libraries: Next.js" }
+    ],
+    "missingRequiredSkills": [],
+    "missingPreferredSkills": [],
+    "findings": [
+      {
+        "id": "f-003",
+        "severity": "positive",
+        "title": "Design-system relevant experience",
+        "detail": "The CV shows direct component-library and accessibility work, which is central to this role.",
+        "evidence": "Documented reusable components; WCAG 2.1 AA dashboard work"
+      },
+      {
+        "id": "f-004",
+        "severity": "neutral",
+        "title": "Seniority gap is the main risk",
+        "detail": "Experience is below the stated 3 years, but the required and preferred skills are fully covered.",
+        "evidence": "Harborview Digital (2024–present)"
+      }
+    ],
+    "keywordsToConsider": ["design system", "component library", "Storybook"],
+    "qualificationGaps": [],
+    "learningPriorities": ["Documentation tooling such as Storybook"],
+    "cvImprovements": [
+      "Lead the summary with design-systems and accessibility work.",
+      "Group components and accessibility improvements into one measurable bullet."
+    ],
+    "confidence": 0.88,
+    "aiAssessment": null,
+    "providerId": null,
+    "modelId": null,
+    "createdAt": "2026-10-01T09:10:00.000Z"
+  },
+  {
+    "id": "match-003",
+    "jobId": "job-002",
+    "cvId": "cv-demo-001",
+    "mode": "baseline",
+    "score": 82,
+    "category": "strong",
+    "breakdown": [
+      {
+        "dimension": "requiredSkills",
+        "score": 1,
+        "weight": 0.5,
+        "effectiveWeight": 0.5,
+        "explanation": "All 5 required skills (React, TypeScript, CSS, REST APIs, Accessibility) were found in the CV."
+      },
+      {
+        "dimension": "preferredSkills",
+        "score": 0.75,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "3 of 4 preferred skills matched (Next.js, Jest, Figma). Missing: GraphQL."
+      },
+      {
+        "dimension": "experience",
+        "score": 0.5,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "The role asks for about 3 years; roughly 1.5 years are documented."
+      },
+      {
+        "dimension": "alignment",
+        "score": 0.7,
+        "weight": 0.1,
+        "effectiveWeight": 0.1,
+        "explanation": "React and TypeScript experience aligns well; mid-level depth expected by the role is only partly evidenced."
+      }
+    ],
+    "matchedSkills": [
+      { "skill": "React", "evidence": "Junior Frontend Developer at Harborview Digital" },
+      { "skill": "TypeScript", "evidence": "Migrated a legacy JavaScript codebase to TypeScript" },
+      { "skill": "CSS", "evidence": "Frameworks & libraries: Tailwind CSS" },
+      { "skill": "REST APIs", "evidence": "Concepts: REST APIs" },
+      { "skill": "Accessibility", "evidence": "WCAG 2.1 AA accessibility work" },
+      { "skill": "Next.js", "evidence": "Frameworks & libraries: Next.js" },
+      { "skill": "Jest", "evidence": "Wrote Jest component tests" },
+      { "skill": "Figma", "evidence": "Worked with designers in Figma" }
+    ],
+    "missingRequiredSkills": [],
+    "missingPreferredSkills": ["GraphQL"],
+    "findings": [
+      {
+        "id": "f-005",
+        "severity": "positive",
+        "title": "Matches the core stack",
+        "detail": "The role is React and TypeScript, which is exactly the candidate's commercial stack.",
+        "evidence": "Harborview Digital role"
+      },
+      {
+        "id": "f-006",
+        "severity": "warning",
+        "title": "GraphQL not evidenced",
+        "detail": "GraphQL is listed as preferred and does not appear anywhere in the CV.",
+        "evidence": null
+      }
+    ],
+    "keywordsToConsider": ["GraphQL", "performance profiling"],
+    "qualificationGaps": [],
+    "learningPriorities": ["GraphQL fundamentals", "React performance profiling"],
+    "cvImprovements": [
+      "Add a performance bullet with a real, measured improvement if one exists.",
+      "Describe the scale of the dashboard (users, components) to convey depth."
+    ],
+    "confidence": 0.86,
+    "aiAssessment": null,
+    "providerId": null,
+    "modelId": null,
+    "createdAt": "2026-09-27T16:30:00.000Z"
+  },
+  {
+    "id": "match-004",
+    "jobId": "job-009",
+    "cvId": "cv-demo-001",
+    "mode": "baseline",
+    "score": 82,
+    "category": "strong",
+    "breakdown": [
+      {
+        "dimension": "requiredSkills",
+        "score": 1,
+        "weight": 0.5,
+        "effectiveWeight": 0.5,
+        "explanation": "All 4 required skills (Playwright, JavaScript, CI/CD, Git) were found in the CV."
+      },
+      {
+        "dimension": "preferredSkills",
+        "score": 0.75,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "3 of 4 preferred skills matched (TypeScript, Docker, REST APIs). Missing: Cypress."
+      },
+      {
+        "dimension": "experience",
+        "score": 0.5,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "The role asks for about 3 years; roughly 1.5 years are documented, though testing work is a strong theme."
+      },
+      {
+        "dimension": "alignment",
+        "score": 0.7,
+        "weight": 0.1,
+        "effectiveWeight": 0.1,
+        "explanation": "Testing experience is relevant, but the candidate has been a product developer rather than a dedicated QA engineer."
+      }
+    ],
+    "matchedSkills": [
+      { "skill": "Playwright", "evidence": "Playwright end-to-end tests for critical flows" },
+      { "skill": "JavaScript", "evidence": "Languages: JavaScript" },
+      { "skill": "CI/CD", "evidence": "Tools & practices: CI/CD" },
+      { "skill": "Git", "evidence": "Tools & practices: Git" },
+      { "skill": "TypeScript", "evidence": "Languages: TypeScript" },
+      { "skill": "Docker", "evidence": "Deployed with Docker and a CI/CD pipeline" },
+      { "skill": "REST APIs", "evidence": "Concepts: REST APIs" }
+    ],
+    "missingRequiredSkills": [],
+    "missingPreferredSkills": ["Cypress"],
+    "findings": [
+      {
+        "id": "f-007",
+        "severity": "positive",
+        "title": "Real end-to-end testing experience",
+        "detail": "The CV documents authoring Playwright tests, which is the primary requirement.",
+        "evidence": "Wrote Jest component tests and Playwright end-to-end tests"
+      },
+      {
+        "id": "f-008",
+        "severity": "warning",
+        "title": "Not framed as a quality specialist",
+        "detail": "Testing appears as part of a developer role. A QA-focused summary would strengthen this application.",
+        "evidence": null
+      }
+    ],
+    "keywordsToConsider": ["test strategy", "flaky tests", "test reporting"],
+    "qualificationGaps": [],
+    "learningPriorities": ["Test strategy and CI stability at scale"],
+    "cvImprovements": [
+      "Add a dedicated testing bullet describing coverage and reliability outcomes.",
+      "Mention any experience reducing flaky tests or speeding up CI."
+    ],
+    "confidence": 0.84,
+    "aiAssessment": null,
+    "providerId": null,
+    "modelId": null,
+    "createdAt": "2026-09-11T19:40:00.000Z"
+  },
+  {
+    "id": "match-005",
+    "jobId": "job-017",
+    "cvId": "cv-demo-001",
+    "mode": "baseline",
+    "score": 48,
+    "category": "moderate",
+    "breakdown": [
+      {
+        "dimension": "requiredSkills",
+        "score": 0.5,
+        "weight": 0.5,
+        "effectiveWeight": 0.5,
+        "explanation": "2 of 4 required skills matched (Python, SQL). Missing: Machine Learning, Pandas."
+      },
+      {
+        "dimension": "preferredSkills",
+        "score": 0.5,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "2 of 4 preferred skills matched (Docker, Data Structures). Missing: PyTorch, AWS."
+      },
+      {
+        "dimension": "experience",
+        "score": 0.5,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "The role asks for about 3 years; roughly 1.5 years are documented."
+      },
+      {
+        "dimension": "alignment",
+        "score": 0.3,
+        "weight": 0.1,
+        "effectiveWeight": 0.1,
+        "explanation": "The role is a data-science position, which is a significant departure from the candidate's frontend background."
+      }
+    ],
+    "matchedSkills": [
+      { "skill": "Python", "evidence": "Languages: Python" },
+      { "skill": "SQL", "evidence": "Languages: SQL" },
+      { "skill": "Docker", "evidence": "Tools & practices: Docker" },
+      { "skill": "Data Structures", "evidence": "BSc Computer Science" }
+    ],
+    "missingRequiredSkills": ["Machine Learning", "Pandas"],
+    "missingPreferredSkills": ["PyTorch", "AWS"],
+    "findings": [
+      {
+        "id": "f-009",
+        "severity": "warning",
+        "title": "Core ML skills are missing",
+        "detail": "Machine Learning and Pandas are required and not evidenced anywhere in the CV.",
+        "evidence": null
+      }
+    ],
+    "keywordsToConsider": ["forecasting", "model evaluation", "Pandas"],
+    "qualificationGaps": ["No evidence of machine-learning coursework or projects"],
+    "learningPriorities": ["Pandas", "Supervised learning fundamentals", "Model evaluation"],
+    "cvImprovements": [
+      "Only pursue this role after completing a genuine ML project you can describe."
+    ],
+    "confidence": 0.8,
+    "aiAssessment": null,
+    "providerId": null,
+    "modelId": null,
+    "createdAt": "2026-09-13T09:00:00.000Z"
+  },
+  {
+    "id": "match-006",
+    "jobId": "job-004",
+    "cvId": "cv-demo-001",
+    "mode": "baseline",
+    "score": 36,
+    "category": "low",
+    "breakdown": [
+      {
+        "dimension": "requiredSkills",
+        "score": 0.4,
+        "weight": 0.5,
+        "effectiveWeight": 0.5,
+        "explanation": "2 of 5 required skills matched (REST APIs, Git). Missing: Java, Spring Boot, PostgreSQL."
+      },
+      {
+        "dimension": "preferredSkills",
+        "score": 0.25,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "1 of 4 preferred skills matched (Docker). Missing: Kubernetes, Kafka, AWS."
+      },
+      {
+        "dimension": "experience",
+        "score": 0.375,
+        "weight": 0.2,
+        "effectiveWeight": 0.2,
+        "explanation": "The role asks for about 4 years; roughly 1.5 years are documented, and none in Java."
+      },
+      {
+        "dimension": "alignment",
+        "score": 0.3,
+        "weight": 0.1,
+        "effectiveWeight": 0.1,
+        "explanation": "The role is a backend Java position, which does not align with the candidate's frontend profile."
+      }
+    ],
+    "matchedSkills": [
+      { "skill": "REST APIs", "evidence": "Concepts: REST APIs" },
+      { "skill": "Git", "evidence": "Tools & practices: Git" },
+      { "skill": "Docker", "evidence": "Tools & practices: Docker" }
+    ],
+    "missingRequiredSkills": ["Java", "Spring Boot", "PostgreSQL"],
+    "missingPreferredSkills": ["Kubernetes", "Kafka", "AWS"],
+    "findings": [
+      {
+        "id": "f-010",
+        "severity": "warning",
+        "title": "Wrong specialism",
+        "detail": "The required skills are Java and Spring Boot, neither of which appears in the CV.",
+        "evidence": null
+      }
+    ],
+    "keywordsToConsider": [],
+    "qualificationGaps": ["No Java or Spring Boot experience evidenced"],
+    "learningPriorities": ["Java", "Spring Boot", "Relational data modelling"],
+    "cvImprovements": [
+      "This role is not a realistic fit with the current CV. Focus on frontend and full-stack roles instead."
+    ],
+    "confidence": 0.82,
+    "aiAssessment": null,
+    "providerId": null,
+    "modelId": null,
+    "createdAt": "2026-09-02T14:10:00.000Z"
+  }
+]

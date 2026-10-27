@@ -1,0 +1,13 @@
+{
+  "id": "profile-demo-001",
+  "fullName": "Alex Moreau",
+  "headline": "Frontend Developer",
+  "email": "alex.moreau@example.com",
+  "phone": "+212 6 61 23 45 67",
+  "location": "Salé, Maroc",
+  "website": "https://alexmoreau.example.com",
+  "linkedin": "https://linkedin.example.com/in/alexmoreau",
+  "github": "https://github.example.com/alexmoreau",
+  "summary": "Frontend developer with a year and a half of commercial experience building React and TypeScript interfaces. Comfortable across the stack with Node.js and REST APIs, and focused on accessibility and testing.",
+  "updatedAt": "2026-10-01T09:00:00.000Z"
+}
